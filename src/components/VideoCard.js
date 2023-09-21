@@ -24,4 +24,18 @@ function VideoCard({ info }) {
 VideoCard.propTypes = {
   info: PropTypes.object.isRequired,
 };
+
+export  const AddVideoCard=({info})=>{
+  
+  return(
+<div className="border-solid border-2 border-red-500 ">
+<VideoCard info={info}/>
+
+</div>
+  )
+}
+
+AddVideoCard.propTypes = {
+  info: PropTypes.object.isRequired,
+};
 export default VideoCard;

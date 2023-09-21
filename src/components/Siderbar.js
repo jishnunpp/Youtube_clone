@@ -7,7 +7,7 @@ const Siderbar = () => {
 
   if(!isMenuOpen)return null; 
   return (
-    <div className='w-50 shadow-lg p-4'>
+    <div className='w-50 shadow-lg p-4  bg-white   h-96  sticky top-16 '>
      
       <ul className='font-bold'>
         <li><Link to='/'>Home</Link></li>

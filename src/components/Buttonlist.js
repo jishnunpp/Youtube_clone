@@ -5,7 +5,7 @@ const Buttonlist = () => {
 
   const List=['all','game','cricket','cooking']
   return (
-    <div className='flex'>
+    <div className='flex  sticky  top-16  bg-white mt-0  z-0'>
       <Button name="All" />
       <Button name="Game"/>
       <Button name="Cricket" />
