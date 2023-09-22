@@ -3,6 +3,7 @@ import { useDispatch } from "react-redux";
 import { closeMenu } from "../utils/appslice";
 import { useSearchParams } from "react-router-dom";
 import { COMMENT_API_KEY } from "../utils/constant";
+import CommentContainer from "./CommentContainer";
 
 const Watchpage = () => {
   const [searchparams] = useSearchParams();
@@ -27,7 +28,7 @@ const Watchpage = () => {
   return (
     <div className="p-4">
       <iframe
-        width="800"
+        width="900"
         height="350"
         src={"https://www.youtube.com/embed/" + searchparams.get("v")}
         title="YouTube video player"
@@ -39,6 +40,9 @@ const Watchpage = () => {
       {/* <div>
         {"http://www.youtube.com/channel/"+searchparams.get("v")}
       </div> */}
+      <div >
+        <CommentContainer/>
+      </div>
     </div>
   );
 };
