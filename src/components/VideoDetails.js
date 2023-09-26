@@ -1,13 +1,20 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-const VideoDetails = (info) => {
+const VideoDetails = ({ info }) => {
+
+  
+  
+   
   console.log(info);
+  
+
+
   return (
    
     <div>
       
-      <h1 className="m-5">video title</h1>
+      <h1 className="m-5">tttt</h1>
       <div className="flex space-x-40">
 
         <div className="flex px-5">
