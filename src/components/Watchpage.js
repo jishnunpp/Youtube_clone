@@ -18,6 +18,9 @@ const Watchpage = () => {
     dispatch(closeMenu());
   }, []);
 
+
+
+
   useEffect(() => {
     getVideosData();
   }, []);
@@ -29,6 +32,9 @@ const Watchpage = () => {
     setVideoDetails(json.items);
   };
 
+
+
+  
   return (
     <div className="w-full">
       <div className="p-4 flex  w-full ">

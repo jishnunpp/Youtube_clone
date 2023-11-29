@@ -72,7 +72,7 @@ const Header = () => {
           </button>
         </div>
         {showSugsetion && (
-          <div className="   fixed bg-white border-1 border-gray-200   w-auto ml-60 py-2 px-5 shadow-lg rounded-lg  ">
+          <div className="   fixed bg-white border-1 border-gray-100   w-auto ml-60 py-2 px-5 shadow-lg rounded-lg  ">
             <ul>
               {sugsestion.map((s) => (
                 <li
